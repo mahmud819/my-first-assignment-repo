@@ -62,3 +62,89 @@ nav button{
     background-color: blueviolet;
    
 }
+/* Web develop area style */
+#web-develop{
+    width: 1140px;
+    height: 1395px;
+    text-align: center;
+    padding: 80px 97px;
+    margin: 80px 97px;
+
+}
+#web-develop h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+#web-develop p{
+    margin-bottom: 48px;
+    color: rgb(13, 19, 33);
+    font-size: 25px;
+    display: block;
+    margin-top: 30px;
+} 
+.card-child{
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+}
+.child-text{
+    width: 477px;
+    height: 280px;
+    text-align: left;
+}
+.child-text h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-child .btn{
+    width: 150px;
+    height: 48px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 18px;
+}
+/* inspriration area style */
+
+#inspriration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inspriration-text{
+    width: 852px;
+    height: 113px;
+    text-align: center;
+    /* background-color: aquamarine; */
+    margin-left: 250px;
+}
+.inspriration-text h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.inspriration-text p{
+    font-size: 18px;
+    color: rgb(13, 19, 33);
+    margin-bottom: 100px;
+}
+.inspriration-video{
+    width: 1140px;
+    height: 614px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-left: 210px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+#inspriration iframe{
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 35px;
+}
